@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body{
+	font-weight:bold;
+    font-family: Garamond Georgia "Times New Roman" Serif;
+	background-color:#034f84;
+}
+
+.row{
+	background-color:#f7786b;
+	border: dashed 3px black;
+	border-radius:1%;
+	color:white;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display:table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 5px;
+}
+
+
+[class*="col-"] {
+    width:100%;
+}
+
+@media only screen and (min-width:900px){
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+
+@media only screen and (min-width:1500px){
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+
+}
+
+#header{
+	color:white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.columns{
+	height:750px;
+	padding:5px 5px 20px 5px;
+}
+
+ul {
+    height:100%;
+    list-style-type: none;
+}
+
+
+li{
+    padding:10px;
+    height:33%;
+}
+
+.circlecontainer{
+    text-align: center;
+    width:100%;
+}
+
+.circlecontainer p{
+    font-size: 24px;
+}
+
+#magentatitle{
+    color:magenta;
+}
+
+#yellowtitle{
+    color:yellow;
+}
+
+#cyantitle{
+    color:cyan;
+}
+
+.circle{
+    height:150px;
+    width:150px;
+    border:solid 2px black;
+    border-radius:50%;
+    margin:auto;
+}
+
+#magentacircle{
+    background-color: magenta;
+}
+
+#yellowcircle{
+    background-color: yellow;
+}
+
+#cyancircle {
+    background-color: cyan;
+}
+
+.slidercont{
+    width:100%;
+    height:100%;
+    padding: 120px 5px 5px 5px;
+}
+
+.slidercont label{
+	border:solid 1px black;
+	border-radius:8%;
+	padding:7px;
+    font-size: 24px;
+	background-color:#92a8d1;
+}
+
+.colorslider{
+	padding:5px;
+    width:95%;
+}
+
+.resultcont{
+    width:100%;
+    height: 100%;
+    text-align: center;
+    padding:100px 40px 40px 40px;
+}
+
+.resultcont p{
+	background-color: #92a8d1;
+	padding:10px;
+    margin:40px 30px 60px 30px;
+    font-size: 24px;
+	border:solid 1px black;
+	border-radius:4%;
+}
+
+#bigcircle{
+    margin:auto;
+    width:300px;
+    height:300px;
+    border: solid 2px black;
+    border-radius: 50%;
+}
+
+
