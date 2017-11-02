@@ -29,7 +29,9 @@ window.addEventListener("load", function() {
         document.getElementById("k2val").innerHTML = yellowslide.value;
         document.getElementById("k3val").innerHTML = cyanslide.value;
 
-
+        document.getElementById("k1c").innerHTML = magentaslide.value;
+        document.getElementById("k2c").innerHTML = yellowslide.value;
+        document.getElementById("k3c").innerHTML = cyanslide.value;
 
         document.getElementById("bigcircle").style.backgroundColor = "rgb("+colors[0]+","+colors[1]+","+colors[2]+")";
 

@@ -6,14 +6,14 @@
 body{
 	font-weight:bold;
     font-family: Garamond Georgia "Times New Roman" Serif;
-	background-color:#034f84;
+	background-color:#80ced6;
 }
 
 .row{
-	background-color:#f7786b;
+	background-color:#fefbd8;
 	border: dashed 3px black;
 	border-radius:1%;
-	color:white;
+	color:brown;
 }
 
 .row::after {
@@ -64,14 +64,14 @@ body{
 }
 
 #header{
-	color:white;
+	color:brown;
     text-align: center;
     font-size: 30px;
 }
 
 .columns{
 	height:750px;
-	padding:5px 5px 20px 5px;
+	padding:0px 5px 20px 5px;
 }
 
 ul {
@@ -81,7 +81,7 @@ ul {
 
 
 li{
-    padding:10px;
+    padding:5px;
     height:33%;
 }
 
@@ -91,7 +91,13 @@ li{
 }
 
 .circlecontainer p{
+    padding: 5px;
+    border:solid 1px black;
+    border-radius:8%;
+    margin-left: 60px;
+    margin-right: 60px;
     font-size: 24px;
+    background-color: #92a8d1;
 }
 
 #magentatitle{
@@ -149,7 +155,7 @@ li{
     width:100%;
     height: 100%;
     text-align: center;
-    padding:100px 40px 40px 40px;
+    padding:60px 40px 40px 40px;
 }
 
 .resultcont p{
